@@ -5,7 +5,7 @@ Enables web access to your Linksys router via HNAP api. Tested against Cisco Lin
 
 Usage:
 run 
-#java -jar enableRouterWebAccess.jar 192.168.1.1 admin YourSecretPassword
+java -jar enableRouterWebAccess.jar 192.168.1.1 admin YourSecretPassword
 where 192.168.1.1 is your router address, (may start with https://)
 admin - default username
 YourSecretPassword - router password
